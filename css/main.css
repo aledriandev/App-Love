@@ -211,7 +211,7 @@ header{
   background-size: 100%
 }
 
-.btn-cancel:hover, #atras:hover, #adelante:hover{
+.btn-cancel:hover, .atras:hover, .adelante:hover{
   filter: contrast(250%);
 }
 
