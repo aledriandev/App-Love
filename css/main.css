@@ -1,0 +1,112 @@
+/*
+ * Ingresa el CSS del proyecto en este archivo
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Establece la fuente de Google aquí */
+  font-family: 'Raleway';
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.logo{
+  float: right;
+}
+
+header{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+}
+
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
+
+#home{
+  background-image: url(../assets/images/bg-home.jpg); /**/
+  background-position: center; /*posicion centro*/
+  background-repeat: no-repeat; /*no se repetira la imagen*/
+  background-size: cover; /*cubre todo el tamaño del contenedor*/
+  height: 554px; /*altura del home*/
+  text-align: center; /*alineacion al centro*/
+  margin-top: 80px; /*darle margen en la parte de arriba*/
+}
+
+#home .container{
+  color: white; /*al texto*/
+  padding: 70px; /*relleno en todos los lados*/
+}
+
+.text-home{
+  font-size: 53px;
+}
+
+.btn-home{
+  background: #2ECC71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#services{
+  background-color: #F17C72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+}
+
+.box-services{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px; /*Espacio entre cada letra*/
+}
+
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #373B47;
+  color: white;
+  padding-top: 7px;
+}
