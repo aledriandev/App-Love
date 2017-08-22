@@ -11,6 +11,9 @@
   margin-top: 0;
 }
 
+.m-0{
+	margin: 0;
+}
 .text-uppercase {
   text-transform: uppercase;
 }
