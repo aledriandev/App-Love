@@ -50,6 +50,7 @@ function big(event){
 		imgBig = document.createElement('img'); 
 		imgBig.src ='assets/images/'+imgProducts[position];
 		imgBig.setAttribute('class','img-big');
+		//Aparece los botones al pasar el mouse//
 		galeria.setAttribute('onmouseover','addButtons(this)');		
 		galeria.appendChild(imgBig);
 		pantalla.appendChild(galeria);
